@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumaiya Islam Mukta - Web Developer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: rgb(92, 92, 226);
+            color: white;
+        }
+
+        /* header {
+            text-align: center;
+            padding: 50px 0;
+        } */
+
+        
+
+        header {
+            text-align: center;
+            /* padding: 50px 0; */
+            position: relative; /* Added position relative */
+        }
+
+        .profile-image {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px; /* Adjust the size as needed */
+            border-radius: 50%; /* Makes it a circle */
+            position: absolute; /* Position absolute for positioning */
+            top:35%; /* Move to the center vertically */
+            left: 50%; /* Move to the center horizontally */
+            transform: translate(-50%, -50%); /* Center the image */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #002f5e; /* Darker blue for the navigation bar */
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .skills {
+            margin-bottom: 30px;
+        }
+
+        .skills h2 {
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skill-bar {
+            background-color: #796666;
+            height: 25px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .skill-level {
+            background-color: #4caf50;
+            height: 100%;
+            width: 0;
+        }
+
+        @keyframes fillWidth {
+            from { width: 0; }
+        }
+
+        .html { animation: fillWidth 2s ease-in-out; width: 100%; }
+        .css { animation: fillWidth 2s ease-in-out; width: 90%; }
+        .javascript { animation: fillWidth 2s ease-in-out; width: 85%; }
+        .php { animation: fillWidth 2s ease-in-out; width: 80%; }
+        .mysql { animation: fillWidth 2s ease-in-out; width: 75%; }
+        .web-testing { animation: fillWidth 2s ease-in-out; width: 70%; }
+
+        footer {
+            text-align: center;
+            background-color: #002f5e;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <section id="info">
+        <img src="391604290_3578174972464089_9183553334950135197_n.jpg" alt="Profile Image" class="profile-image">
+
+        <br><br><br>
+        <br><br><br>
+        <h1>Sumaiya Islam Mukta</h1>
+        <p>Web Developer & Language Trainer</p>
+
+    </section>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am Sumaiya Islam Mukta, a dedicated Computer Technology diploma student with a fervent passion for web development. My journey in the world of technology began with a curiosity about how websites are built, and I have since cultivated a robust skill set in various web technologies.</p>
+    
+        <p>With a keen eye for detail and a creative mindset, I strive to craft visually appealing and user-friendly web experiences. My enthusiasm for problem-solving and staying updated on the latest industry trends drives me to continually enhance my skills and take on new challenges in the ever-evolving field of web development.</p>
+    
+        <p>Having successfully completed courses and projects, I possess a solid foundation in key technologies:</p>
+    
+        <ul>
+            <li>HTML - Structuring the foundation of the web.</li>
+            <li>CSS - Styling and bringing life to web pages with design principles.</li>
+            <li>JavaScript - Adding interactivity and dynamic features to enhance user experience.</li>
+            <li>PHP - Building server-side applications for robust and scalable solutions.</li>
+            <li>MySQL - Managing and querying databases to store and retrieve data efficiently.</li>
+            <li>Web Testing - Ensuring the quality and functionality of web applications through testing methodologies.</li>
+        </ul>
+    
+        <p>I am not just content with my current skill set; I am on a continuous journey of learning. The dynamic nature of technology motivates me to stay abreast of emerging trends and technologies, ensuring that I can contribute effectively to innovative and cutting-edge projects.</p>
+    
+        <p>As I embark on this exciting path, I am eager to collaborate, contribute, and make a meaningful impact in the realm of web development. Feel free to explore my portfolio to get a glimpse of my work and the projects I've undertaken. Thank you for visiting!</p>
+    </section>
+    
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="skill-bar html">
+                <div class="skill-level"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="skill-bar css">
+                <div class="skill-level"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="skill-bar javascript">
+                <div class="skill-level"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>PHP</p>
+            <div class="skill-bar php">
+                <div class="skill-level"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>MySQL</p>
+            <div class="skill-bar mysql">
+                <div class="skill-level"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Web Testing</p>
+            <div class="skill-bar web-testing">
+                <div class="skill-level"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Explore some of my recent projects showcasing my skills in web development:</p>
+        <ul>
+            <li><strong>Project 1:</strong> Responsive Website for a Local Business</li>
+            <li><strong>Project 2:</strong> Interactive Web Application using JavaScript</li>
+            <li><strong>Project 3:</strong> PHP-based Blog with MySQL Database</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me. Through -</p>
+        <p> Email: me4me.mukta@gmail.com</p>
+        <p>Phone: +880 19434 xxx</p>
+        <p>LinkedIn: linkedin.com/in/@mukta</p>
+        <p>GitHub: github.com/mukt@</p>
+    </section>
+
+    <br><br><br>
+
+    <footer>
+        &copy; 2023 Sumaiya Islam Mukta - Web Developer
+    </footer>
+
+
+    
+
+</body>
+
+
+</html>
